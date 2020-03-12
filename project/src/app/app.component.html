@@ -1,0 +1,23 @@
+<head>
+  <style>
+    div{ text-align: center;}
+    h1{text-align: center;}
+  </style>
+</head>
+<body >
+<h1 >Twitter Analysis</h1>
+<div class="form-group">
+  <label>count</label><br>
+  <input [(ngModel)]="count">
+</div><br>
+<div class="form-group">
+  <label>Keyword</label><br>
+  <input [(ngModel)]="keyword">
+</div>
+<div><button (click)="onClick()">submit info</button></div>
+
+<div [chart]='chart'></div>
+<div [chart]='chart2'></div>
+<div [chart]='chart3'></div>
+</body>
+<router-outlet></router-outlet>

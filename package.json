@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Project work",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Biswarup Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^9.0.5",
+    "array-unique": "^0.3.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7",
+    "sentiment": "^5.0.2",
+    "twitter": "^1.7.1"
+  }
+}
