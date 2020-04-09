@@ -12,10 +12,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.post('/',jsonparser,function(req,res){
     var client = new Twitter({
-        consumer_key: 'MKoTstgPHqdt9qf3k4WKxvHHL',
-        consumer_secret: 'WirPZgrhmEU3kKRdZM54K9pUwuRSwfoaSKoZx4UIxBkcga2VgL',
-        access_token_key: '1232631596139700224-ZA9MpS2gRr9pUYnWo1T43DvrftIRw5',
-        access_token_secret: 'yPXotbMu4KrcmuTI15L4oLrzZGka7IRw209UbeGmUYN4w'
+        consumer_key: '',
+        consumer_secret: '',
+        access_token_key: '',
+        access_token_secret: ''
       });
 
 var params = {q:req.body.keyword,count:req.body.count,result_type:'recent',lang:'en'};
